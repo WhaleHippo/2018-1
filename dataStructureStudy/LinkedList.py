@@ -78,6 +78,9 @@ class linkedList :
 		temp = nodeA.data;
 		nodeA.data = nodeB.data;
 		nodeB.data = temp;
+	def __str__(self) :
+		self.printall(True);
+		return ""
 
 
 ll = linkedList();
@@ -90,6 +93,8 @@ ll.printall(True)
 ll.printall(False)
 
 print ""
-ll.swap(0,66666)
+ll.swap(0,666666)
 ll.printall(True)
 ll.printall(False)
+
+print ll
