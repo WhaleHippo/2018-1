@@ -144,9 +144,9 @@ public:
 
 int main(){
 
-	BigNum a("123456789");
-	BigNum b("978625314");
-	BigNum c("45637");
+	BigNum a("1231546135315");
+	BigNum b("2");
+	BigNum c("1");
 	
 
 	cout << a*b*c << endl;
