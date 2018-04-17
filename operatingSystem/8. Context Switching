@@ -1,6 +1,6 @@
 -단어 정리
 Context Switching : 현재 수행중인 프로세스의 state를 저장하고, 다음 수행될 프로세스의 state를 불러오는 작업
-	Context Saving : 
+Context Saving : 
 OSPCBCur : OS에 있는 글로벌 변수 중 하나로, 현재 수행되고 있는 P프로세스C컨트롤B블락를 가리키는 포인터이다.
 -내용 정리
 
