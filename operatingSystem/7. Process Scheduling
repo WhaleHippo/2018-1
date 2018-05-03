@@ -8,8 +8,8 @@
 
 dispatcher : OS의 가장 깊은 곳에서 무한루프(주어진 프로세스를 어느정도 돌리고, 그 프로세스의 상태를 모두 안전한 상태로 보관, 정책에 의해서 선택된 프로세스를 수행)를 돌리는 놈. 스케쥴링과 context switching을 하는 주체이다.
 
-Non-preemptive 스케쥴링 : 
-preemptive 스케쥴링 : 
+Non-preemptive 스케쥴링 : 프로세스가 자발적으로 블락되어 CPU를 내놓음(IO인터럽트 등)
+preemptive 스케쥴링 : 프로세스가 스케쥴러에 의해서 강제적으로 CPU를 내놓음
 
 
 
