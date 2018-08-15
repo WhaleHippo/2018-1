@@ -38,7 +38,7 @@ void loop(){
 //*/
 
 
-/*
+
 //3. Serial Output
 #include "Arduino.h"
 void setup(){
@@ -66,7 +66,7 @@ void loop(){
 //*/
 
 
-
+/*
 //5. Serial Input 1 NO parsing
 #include "Arduino.h"
 void setup(){
